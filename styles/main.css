@@ -104,7 +104,7 @@ body {
 
 .contacts-item:hover svg,
 .contacts-item:focus svg {
-  fill: var(--accent-color);
+fill: var(--accent-color);
 }
 
 
@@ -112,19 +112,20 @@ body {
 .contacts-item:not(:last-child) {
   margin-right: 30px;
 }
+
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
 }
 
 .link-svg {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
 
 .hero {
+  max-width: 1600px;
   background-image: linear-gradient(to bottom,
   rgba(47, 48, 58, 0.8),
   rgba(47, 48, 58, 0.8) ),
@@ -183,7 +184,7 @@ width: 270px;
 height: 120px;
 background-color: var(--secondary-white-color);
 }
-.feature-list-img {
+.feature-list-svg {
 padding: 25px 100px;
 }
 .feature-list-item:not(:last-child) {
@@ -267,6 +268,19 @@ margin-right: 30px;
 .team-social-links-item:not(:last-child) {
   margin-right: 10px;
 }
+
+.social-icons-svg {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #FFFFFF;
+}
+
+.social-icons-svg:hover,
+.social-icons-svg:focus {
+  fill: var(--accent-color);
+}
+
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -318,14 +332,23 @@ margin-right: 30px;
   justify-content: center;
   align-items: center;
   border-color: #AFB1B8;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
-
-  .clients-container-item:not(:last-child) {
+.clients-container-item:not(:last-child) {
 margin-right: 30px;
 }
 
+.client-icon-svg {
+  fill: #AFB1B8;
+}
+
+
+.client-icon-svg:hover,
+.client-icon-svg:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
 
 
@@ -394,11 +417,20 @@ margin-right: 30px;
   padding-left: 69px;
 }
 
+.social-icons-footer-svg:hover,
+.social-icons-footer-svg:focus {
+  fill: var(--accent-color);
+}
+
 .social-icons-footer:not(:last-child) {
   margin-right: 10px;
 }
 
-
+.social-icons-footer-svg {  
+  width: 44px;
+  height: 44px;
+  fill: rgba(255, 255, 255, 0.1);
+}
 
 /* Portfolio */
 
@@ -490,6 +522,11 @@ background-color:var(--accent-color);
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
   /* box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12); */
+}
+
+.project-list-link:hover {
+  /* color: var(--accent-color); */
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .samples {
