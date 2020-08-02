@@ -300,8 +300,8 @@ body {
   background-color: var(--accent-color);
 }
 
-.social-icons-svg:hover,
-.social-icons-svg:focus {
+.social-icons-link-svg:hover .social-icons-svg,
+.social-icons-link-svg:focus .social-icons-svg {
   fill: var(--primary-white-color);
 }
 
@@ -373,8 +373,8 @@ border-color: var(--accent-color);
 }
 
 
-.client-icon-svg:hover,
-.client-icon-svg:focus {
+.clients-container-item:hover .client-icon-svg,
+.clients-container-item:focus .client-icon-svg {
   fill: var(--accent-color);
 }
 
