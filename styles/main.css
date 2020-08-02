@@ -271,6 +271,7 @@ body {
   list-style: none;
   padding: 0px;
   justify-content: center;
+  margin-bottom: 24px;
 }
 
 
@@ -289,15 +290,19 @@ body {
 }
 
  .social-icons-svg {
-  width: 44px;
-  height: 44px;
-  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
+.social-icons-link-svg:hover,
+.social-icons-link-svg:focus {
+  background-color: var(--accent-color);
+}
 
 .social-icons-svg:hover,
 .social-icons-svg:focus {
-  fill: var(--accent-color);
+  fill: var(--primary-white-color);
 }
 
 
@@ -437,19 +442,30 @@ border-color: var(--accent-color);
   padding-left: 69px;
 }
 
-.social-icons-footer-svg:hover,
-.social-icons-footer-svg:focus {
-  fill: var(--accent-color);
+.social-icon-footer-link:hover,
+.social-icon-footer-link:focus {
+  background-color: var(--accent-color);
 }
 
 .social-icons-footer:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-icons-footer-svg {
+.social-icon-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  fill: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icons-footer-svg {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+  
 }
 
 /* Portfolio */
